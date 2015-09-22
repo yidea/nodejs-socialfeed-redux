@@ -17,4 +17,4 @@ Time spent: `16`
 
 ### Walkthrough
 
-![Video Walkthrough](...)
+![Video Walkthrough](https://github.com/yidea/nodejs-socialfeed-redux/blob/master/feed.gif)
