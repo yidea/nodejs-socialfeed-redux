@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Social Authenticator</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body { padding-top:80px; word-wrap:break-word; }
+        ._icons > a, ._icons > a:visited, ._icons > a:hover, ._icons > a:active { color: inherit; }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul id="messages" class="list-group">
+            <li id="template" style="display: none; list-style-type: none" class="list-group-item">
+                <i></i>
+                <span></span>
+            </li>
+        </ul>
+    </div>
+</body>
+<script>window.state = <%- state %></script>
+<script src="/js/index.js"></script>
+</html>
