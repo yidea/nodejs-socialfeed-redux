@@ -1,6 +1,6 @@
 let $ = require('jquery')
 let io = require('socket.io-client')
-let socket = io('http://dev.walmart.com:8000')
+let socket = io('http://localhost:8000')
 let $template = $('#template')
 
 socket.on('connect', ()=>console.log('client connectedxxxxx'))
